@@ -2,3 +2,7 @@ body {
   background: #0a3b78;
   color: white;
 }
+
+body .other-portfolios {
+  border: 3px solid black;
+}
