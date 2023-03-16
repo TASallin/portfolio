@@ -10,30 +10,43 @@
 </head>
 
 <body>
-  <div classname="personal-information">
+  <div class="top">
     <h1>Portfolio</h1>
     <h2>Tristan Sallin</h2>
-    <img className="tristan-image" src="./images/Tristan.jpg" alt="Tristan" width="500" height="500">
-    <p>BS in computer science from Georgia Tech</p>
-    <p>Currently in MA in game design program at American University</p>
-    <p>tristanasallin@gmail.com</p>
   </div>
-  <div classname="resume-link">
-    <p>Resume</p>
-  </div>
-  <div classname="other-portfolios">
-    <a href='https://tasallin.github.io/game601-fall2022/portfolio/'>graduate portfolio</a>
-    <p>This is a collection of what I worked on during my first graduate semester at American University</p>
-    <a href='https://github.com/TASallin/game-portfolio'>undergraduate portfolio</a>
-    <p>This is a github link that contains games I worked on during undergrad that require downloads to play</p>
-  </div>
-  <div classname="webgl-games">
-    <a href='https://mysticfroggames.itch.io/after-the-flood'>After the Flood</a>
-    <p>After the Flood is a game a team of us made for Apocalypse Game Jam 2022 over the course of a week, which won 2nd place. I worked on the scripting and Unity Development during this project</p>
-    <iframe src='https://youtube.com/embed/qVd1ytmPYxE' width="500" height="500">
-    <div/>
-    <a href='https://tasallin.github.io/game615-spring2023-05/exercise05/play/'>Wesker Orders a Pizza</a>
-    <p>This is just a small assignment that features Unity ProBuilder and terrain</p>
+  <div class="row">
+    <div class="column">
+      <div class="personal-information">
+        <img class="tristan-image" src="./images/Tristan.jpg" alt="Tristan" width="256" height="256">
+        <address>tristanasallin@gmail.com</address>
+        <p>BS in computer science from Georgia Tech</p>
+        <p>Currently in MA in game design program at American University</p>
+      </div>
+      <div class="resume-link">
+        <a href="https://docs.google.com/document/d/1S8VTELT0PeGRgNAUjyR3GAC-n0C_gD_M/edit?usp=sharing&ouid=106941598260571090478&rtpof=true&sd=true">Resume</a>
+      </div>
+      <div class="other-portfolios">
+        <a href='https://tasallin.github.io/game601-fall2022/portfolio/'>graduate portfolio</a>
+        <p>This is a collection of what I worked on during my first graduate semester at American University</p>
+      </div>
+      <div class="other-portfolios">
+        <a href='https://github.com/TASallin/game-portfolio'>undergraduate portfolio</a>
+        <p>This is a github link that contains games I worked on during undergrad that require downloads to play</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="webgl-games">
+        <h2>After the Flood</h2>
+        <a class="play-button" href='https://mysticfroggames.itch.io/after-the-flood'>Play</a>
+        <p>After the Flood is a game a team of us made for Apocalypse Game Jam 2022 over the course of a week, which won 2nd place. I worked on the scripting and Unity Development during this project</p>
+        <iframe src='https://youtube.com/embed/qVd1ytmPYxE' width="500" height="500"></iframe>
+      </div>
+      <div class="webgl-games">
+        <h4>Wesker Orders a Pizza</h4>
+        <a class="play-button" href='https://tasallin.github.io/game615-spring2023-05/exercise05/play/'>Play</a>
+        <p>This is just a small assignment that features Unity ProBuilder and terrain</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>

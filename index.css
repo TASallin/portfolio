@@ -3,6 +3,50 @@ body {
   color: white;
 }
 
-body .other-portfolios {
+.other-portfolios {
   border: 3px solid black;
+  background: #86a3d1;
+  color: black;
+  margin: 4px 2px;
+  margin-right: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.webgl-games {
+  border: 3px solid black;
+  background: #86a3d1;
+  color: black;
+  margin: 4px 2px;
+  padding: 20px;
+}
+
+.play-button {
+  border: 1px solid black;
+  background: #26915c;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  margin: 4px 2px;
+  padding: 14px 20px;
+}
+
+.top {
+  text-align: center;
+}
+
+.resume-link {
+  background: #86a3d1;
+  border: 3px solid black;
+  margin: 4px 2px;
+  margin-right: 100px;
 }
